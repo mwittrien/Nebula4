@@ -26,7 +26,6 @@
 // ║ File Imports       ║ Files needed for Nebulas functionality will be put below, shouldnt edit.          ║
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
 
-@import "./src/import";
 
 // ╠═════════════════════════════END FILE IMPORTING / START COLOR VARIABLES═════════════════════════════════╣
 
@@ -41,15 +40,17 @@
 // ║ Dark Mode Variables║ Nebulas variables for dark mode are below, alter at choice.                       ║
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
 
---neb-primary-dark:PLACEHOLDER;
---neb-secondary-dark:PLACEHOLDER;
---neb-secondary-alt-dark:PLACEHOLDER;
---neb-tertiary-dark:PLACEHOLDER;
+--neb-primary-dark:black;
+--neb-secondary-dark:green;
+--neb-secondary-alt-dark:blue;
+--neb-tertiary-dark:orange;
 
 --neb-unread-indicator-dark:PLACEHOLDER;
 --neb-mention-indicator-dark:PLACEHOLDER;
 --neb-mention-number-dark:PLACEHOLDER;
---neb-muted-indicator-light:PLACEHOLDER;
+--neb-muted-indicator-dark:PLACEHOLDER;
+
+--channeltextarea-background-dark:PLACEHOLDER;
 
 --neb-message-bubble-dark:PLACEHOLDER;
 
@@ -69,6 +70,8 @@
 --neb-mention-indicator-light:PLACEHOLDER;
 --neb-mention-number-light:PLACEHOLDER;
 --neb-muted-indicator-light:PLACEHOLDER;
+
+--channeltextarea-background-light:PLACEHOLDER;
 
 --neb-message-bubble-light:PLACEHOLDER;
 
@@ -147,12 +150,42 @@
 // ║ Discord Dark Vars  ║ Discord variables for dark mode go below.                                         ║
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
 .theme-dark{
-    --background-primary:red;
+    --background-primary:var(--neb-primary-dark);
+    --background-secondary:var(--neb-secondary-dark);
+    --background-secondary-alt:var(--neb-secondary-alt-dark);
+    --background-tertiary:var(--neb-tertiary-dark);
+
+    --unread-indicator:var(--neb-unread-indicator-dark);
+    --mention-indicator:var(--neb-mention-indicator-dark);
+    --mention-number-color:var(--neb-mention-number-dark);
+    --muted-indicator:var(--neb-muted-indicator-dark);
+
+    --channeltextarea-background:var(--channeltextarea-background-dark);
+
+    --message-bubble:var(--neb-message-bubble-dark);
+    
+    --button-background:var(--neb-button-background-dark);
+    --button-hover:var(--neb-button-hover-dark);
 }
 
 // ╔════════════════════╦═══════════════════════════════════════════════════════════════════════════════════╗
 // ║ Discord Light Vars ║ Discord variables for light mode go below.                                        ║
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
 .theme-light{
-    --PLACEHOLDER:PLACEHOLDER;
+    --background-primary:var(--neb-primary-light);
+    --background-secondary:var(--neb-secondary-light);
+    --background-secondary-alt:var(--neb-secondary-alt-light);
+    --background-tertiary:var(--neb-tertiary-light);
+
+    --unread-indicator:var(--neb-unread-indicator-light);
+    --mention-indicator:var(--neb-mention-indicator-light);
+    --mention-number-color:var(--neb-mention-number-light);
+    --muted-indicator:var(--neb-muted-indicator-light);
+
+    --channeltextarea-background:var(--channeltextarea-background-light);
+
+    --message-bubble:var(--neb-message-bubble-light);
+    
+    --button-background:var(--neb-button-background-light);
+    --button-hover:var(--neb-button-hover-light);
 }
