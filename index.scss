@@ -1,0 +1,158 @@
+
+// ╔════════════════════════════════════════════════════════════════════════════════════════════════════════╗
+// ║ Nebula 4                                                                                               ║
+// ╠════════════════════╦═══════════════════════════════════════════════════════════════════════════════════╣
+// ║ Theme:             ║ Nebula 4                                                                          ║
+// ║ version:           ║ 4.0.0 Beta Release                                                                ║
+// ║ author:            ║ Pavy#3481                                                                         ║
+// ╠════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╣
+// ║                                                                                                        ║
+// ║ Nebula 4 is a round, dark blue theme that changes every                                                ║
+// ║ (or almost every) aspect of discords UI, I hope you                                                    ║
+// ║ Enjoy this theme!                                                                                      ║
+// ║                                                                                                        ║
+// ╚════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+
+// ╔═══════════════════╦════════════════════════════════════════════════════════════════════════════════════╗
+// ║ Credits           ║ How they contributed to Nebula 4:                                                  ║
+// ╠═══════════════════╬════════════════════════════════════════════════════════════════════════════════════╣
+// ║ CorellanStoma     ║ Inspired the file structure and labeling of Nebula.                                ║
+// ╚════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+
+// ╠═════════════════════════════END THEME DETAILS / START FILE IMPORTING═══════════════════════════════════╣
+
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════════════════╗
+// ║ File Imports       ║ Files needed for Nebulas functionality will be put below, shouldnt edit.          ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+@import "./src/import";
+
+// ╠═════════════════════════════END FILE IMPORTING / START COLOR VARIABLES═════════════════════════════════╣
+
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════════════════╗
+// ║ Nebula Variables   ║ Nebulas custom variables will be found below.                                     ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+:root{
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════════════════╗
+// ║ Dark Mode Variables║ Nebulas variables for dark mode are below, alter at choice.                       ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+--neb-primary-dark:PLACEHOLDER;
+--neb-secondary-dark:PLACEHOLDER;
+--neb-secondary-alt-dark:PLACEHOLDER;
+--neb-tertiary-dark:PLACEHOLDER;
+
+--neb-unread-indicator-dark:PLACEHOLDER;
+--neb-mention-indicator-dark:PLACEHOLDER;
+--neb-mention-number-dark:PLACEHOLDER;
+--neb-muted-indicator-light:PLACEHOLDER;
+
+--neb-message-bubble-dark:PLACEHOLDER;
+
+--neb-button-background-dark:PLACEHOLDER;
+--neb-button-hover-dark:PLACEHOLER;
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════════════════╗
+// ║Light Mode Variables║ Nebulas variables for light mode are below, alter at will.                        ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+--neb-primary-light:PLACEHOLDER;
+--neb-secondary-light:PLACEHOLDER;
+--neb-secondary-alt-light:PLACEHOLDER;
+--neb-tertiary-light:PLACEHOLDER;
+
+--neb-unread-indicator-light:PLACEHOLDER;
+--neb-mention-indicator-light:PLACEHOLDER;
+--neb-mention-number-light:PLACEHOLDER;
+--neb-muted-indicator-light:PLACEHOLDER;
+
+--neb-message-bubble-light:PLACEHOLDER;
+
+--neb-button-background-light:PLACEHOLDER;
+--neb-button-hover-light:PLACEHOLER;
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════════════════╗
+// ║Misc Color Variables║ Nebulas variables for specific colors are below, alter at will.                   ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+--neb-winbutton:PLACEHOLDER;
+--neb-close-button:PLACEHOLDER;
+--neb-minimize-button:PLACEHOLDER;
+--neb-maximize-button:PLACEHOLDER;
+
+--neb-status-online:PLACEHOLDER;
+--neb-status-dnd:PLACEHOLDER;
+--neb-status-idle:PLACEHOLDER;
+--neb-status-streamer:PLACEHOLDER;
+
+--neb-scrollbar-track:PLACEHOLDER;
+--neb-scrollbar-thumb:PLACEHOLDER;
+
+// ╠════════════════════════END COLOR VARIABLES / START ELEMENT DEPENDENT VARIABLES═════════════════════════╣
+
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════════════════╗
+// ║ ED Variables       ║ Elements that depend on variables will do below, alter at will.                   ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+// Border Radius
+--neb-br-none:PLACEHOLDER;
+--neb-br-small:PLACEHOLDER;
+--neb-br-large:PLACEHOLDER;
+
+// Font
+--neb-font-size-XS:PLACEHOLDER;
+--neb-font-size-S:PLACEHOLDER;
+--neb-font-size-M:PLACEHOLDER;
+--neb-font-size-L:PLACEHOLDER;
+--neb-font-size-XL:PLACEHOLDER;
+
+--neb-font-weight-light: 300;
+--neb-font-weight-normal: 400;
+--neb-font-weight-semibold: 600;
+--neb-font-weight-bold: 700;
+
+// Nebula Version
+--neb-version1:"PLACEHOLDER";
+--neb-version2:"PLACEHOLDER";
+
+// Sidebar
+--neb-sidebar-width:300px;
+
+// Modal
+--neb-backdrop-blur:5px;
+
+// ╠════════════════════════════END ELEMENT DEPENDENT VARIABLES / START PATHS═══════════════════════════════╣
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════════════════╗
+// ║ SVG Paths          ║ Nebula icon paths go below, I dont recommend changing any of the values.          ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+--neb-home-button-path:PLACEHOLDER;
+--neb-back-button-path:PLACEHOLDER;
+--neb-close-button-path:PLACEHOLDER;
+--neb-maximize-button-path:PLACEHOLDER;
+
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════════════════╗
+// ║ Discord Variables  ║ Discord own variables that are modified go below.                                 ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════════════════╗
+// ║ Discord Dark Vars  ║ Discord variables for dark mode go below.                                         ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+.theme-dark{
+    --PLACEHOLDER:PLACEHOLDER;
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════════════════╗
+// ║ Discord Light Vars ║ Discord variables for light mode go below.                                        ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+.theme-light{
+    --PLACEHOLDER:PLACEHOLDER;
+}

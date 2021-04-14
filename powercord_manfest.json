@@ -1,0 +1,8 @@
+{
+    "name": "Nebula 4",
+    "description": "Discord reimagined, but its sadly blue",
+    "version": "4.0.0 Beta Release",
+    "author": "Pavy#3481",
+    "theme": "index.scss",
+    "license": "MIT"
+}
