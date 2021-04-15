@@ -1,7 +1,7 @@
 <h1 align=center> Nebula 4 </h1>
 <p align="center"> Nebula is a round, consistent, functional dark blue theme </p>
 
-![preview](https://i.imgur.com/EOPVHjx.png)
+![preview](./assets/banner.png)
 
 ---
 
