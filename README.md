@@ -1,7 +1,8 @@
-<h1 align=center> Nebula 4 </h1>
-<p align="center"> Nebula is a round, consistent, functional dark blue theme </p>
 
 ![preview](./assets/banner.png)
+
+<p align="center"> Nebula is a round, consistent, functional dark blue theme </p>
+
 
 ---
 
@@ -11,6 +12,6 @@
 - More variables for more customizations
 - Better USRBG integration
 
-### For more information please visit the [wiki](wiki.com)
+### For more information regarding installing and customizations, please visit the [wiki](wiki.com)
 
 ---

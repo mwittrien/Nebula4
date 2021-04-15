@@ -17,7 +17,9 @@
 // ║ Credits           ║ How they contributed to Nebula 4:                                                  ║
 // ╠═══════════════════╬════════════════════════════════════════════════════════════════════════════════════╣
 // ║ CorellanStoma     ║ Inspired the file structure and labeling of Nebula.                                ║
-// ╚════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+// ╠═══════════════════╬════════════════════════════════════════════════════════════════════════════════════╣
+// ║ Tropical & Gibbu  ║ USRBG Integration                                                                  ║
+// ╚═══════════════════╩════════════════════════════════════════════════════════════════════════════════════╝
 
 // ╠═════════════════════════════END THEME DETAILS / START FILE IMPORTING═══════════════════════════════════╣
 
@@ -26,6 +28,7 @@
 // ║ File Imports       ║ Files needed for Nebulas functionality will be put below, shouldnt edit.          ║
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
 
+@import "./src/import";
 
 // ╠═════════════════════════════END FILE IMPORTING / START COLOR VARIABLES═════════════════════════════════╣
 
@@ -40,22 +43,22 @@
 // ║ Dark Mode Variables║ Nebulas variables for dark mode are below, alter at choice.                       ║
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
 
---neb-primary-dark:PLACEHOLDER;
---neb-secondary-dark:PLACEHOLDER;
---neb-secondary-alt-dark:PLACEHOLDER;
---neb-tertiary-dark:PLACEHOLDER;
+--neb-primary-dark:#25294a;
+--neb-secondary-dark:#202442;
+--neb-secondary-alt-dark:#2d325a;
+--neb-tertiary-dark:#1b1f38;
 
---neb-unread-indicator-dark:PLACEHOLDER;
---neb-mention-indicator-dark:PLACEHOLDER;
---neb-mention-number-dark:PLACEHOLDER;
---neb-muted-indicator-dark:PLACEHOLDER;
+--neb-unread-indicator-dark:var(--neb-unread-indicator-dark);
+--neb-mention-indicator-dark:var(--neb-mention-indicator-dark);
+--neb-mention-number-dark:var(--neb-mention-number-dark);
+--neb-muted-indicator-dark:var(--neb-muted-indicator-dark);
 
---channeltextarea-background-dark:PLACEHOLDER;
+--channeltextarea-background-dark:var(--neb-secondary-alt-dark);
 
---neb-message-bubble-dark:PLACEHOLDER;
+--neb-message-bubble-dark:var(--background-tertiary);
 
---neb-button-background-dark:PLACEHOLDER;
---neb-button-hover-dark:PLACEHOLER;
+--neb-button-background-dark:var(--background-tertiary);
+--neb-button-hover-dark:var(--background-secondary);
 
 // ╔════════════════════╦═══════════════════════════════════════════════════════════════════════════════════╗
 // ║Light Mode Variables║ Nebulas variables for light mode are below, alter at will.                        ║
@@ -82,18 +85,18 @@
 // ║Misc Color Variables║ Nebulas variables for specific colors are below, alter at will.                   ║
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
 
---neb-winbutton:PLACEHOLDER;
---neb-close-button:PLACEHOLDER;
---neb-minimize-button:PLACEHOLDER;
---neb-maximize-button:PLACEHOLDER;
+--neb-winbutton:var(--background-secondary-alt);
+--neb-close-button:rgb(204, 33, 30);;
+--neb-minimize-button:rgb(45, 197, 83);;
+--neb-maximize-button:rgb(233, 158, 18);
 
---neb-status-online:PLACEHOLDER;
---neb-status-dnd:PLACEHOLDER;
---neb-status-idle:PLACEHOLDER;
---neb-status-streamer:PLACEHOLDER;
+--neb-status-online: rgb(53, 177, 125);
+--neb-status-dnd: rgb(215, 58, 73);
+--neb-status-idle: rgb(238, 185, 11);
+--neb-status-streaming:rgb(89, 54, 149);
 
---neb-scrollbar-track:PLACEHOLDER;
---neb-scrollbar-thumb:PLACEHOLDER;
+--neb-scrollbar-track:transparent;
+--neb-scrollbar-thumb:var(--background-tertiary);
 
 // ╠════════════════════════END COLOR VARIABLES / START ELEMENT DEPENDENT VARIABLES═════════════════════════╣
 
@@ -103,16 +106,16 @@
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
 
 // Border Radius
---neb-br-none:PLACEHOLDER;
---neb-br-small:PLACEHOLDER;
---neb-br-large:PLACEHOLDER;
+--neb-br-none:0;
+--neb-br-small:10px;
+--neb-br-large:20px;
 
 // Font
---neb-font-size-XS:PLACEHOLDER;
---neb-font-size-S:PLACEHOLDER;
---neb-font-size-M:PLACEHOLDER;
---neb-font-size-L:PLACEHOLDER;
---neb-font-size-XL:PLACEHOLDER;
+--neb-font-size-XS:7;
+--neb-font-size-S:11px;
+--neb-font-size-M:15px;
+--neb-font-size-L:20px;
+--neb-font-size-XL:30px;
 
 --neb-font-weight-light: 300;
 --neb-font-weight-normal: 400;
@@ -120,8 +123,8 @@
 --neb-font-weight-bold: 700;
 
 // Nebula Version
---neb-version1:"PLACEHOLDER";
---neb-version2:"PLACEHOLDER";
+--neb-version1:"Nebula 4 Beta";
+--neb-version2:"4.0.0";
 
 // Sidebar
 --neb-sidebar-width:300px;
