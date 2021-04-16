@@ -1,7 +1,7 @@
 
 ![preview](./assets/banner.png)
 
-<p align="center"> Nebula is a round, consistent, functional dark blue theme </p>
+<p align="center"> Nebula is a round, consistent, functional dark blue theme made to change every aspect of Discord </p>
 
 
 ---
