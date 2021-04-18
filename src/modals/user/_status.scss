@@ -1,0 +1,10 @@
+[mask="url(#svg-mask-status-idle)"]{
+    fill: var(--neb-status-idle);
+}
+[mask="url(#svg-mask-status-online)"],
+[mask="url(#svg-mask-status-online-mobile)"]{
+    fill:var(--neb-status-online);
+}
+[mask="url(#svg-mask-status-dnd)"]{
+    fill:var(--neb-status-dnd);
+}

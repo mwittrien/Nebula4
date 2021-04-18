@@ -1,0 +1,38 @@
+.modal-3c3bKg{
+    .root-SR8cQa{
+        background-color: var(--background-primary);
+        border-radius: var(--neb-br-normal);
+        width:fit-content;
+        height:445px;
+        max-height:470px;
+        .header-QKLPzZ{
+            padding-right: 0;
+            padding-left: 0;
+            button{
+                background-color: var(--button-background);
+                border-radius: var(--neb-br-normal);
+                color:var(--header-primary);
+                &:hover{
+                    background-color: var(--button-hover);
+                }
+            }
+            .wrapper-3t9DeA{
+                foreignObject{
+                    border-radius: var(--neb-br-normal);
+                    mask: none;
+                }
+                rect{
+                    height: 10px;
+                    mask:none;
+                    width: 75%;
+                    x:5;
+                    y:66;
+                    ry:5;
+                }
+            }
+        }
+    }
+    .directionColumn-35P_nr{
+        flex-direction:row;
+    }
+}

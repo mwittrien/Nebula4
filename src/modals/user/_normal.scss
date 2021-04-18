@@ -1,0 +1,39 @@
+.topSectionNormal-2-vo2m{
+    margin: calc(var(--spacing-normal) * 7.5) var(--spacing-normal) var(--spacing-normal) var(--spacing-normal);
+    background-color: transparent;
+    border-radius: var(--neb-br-normal);
+    .header-QKLPzZ{
+        width:440px;
+        &::after{
+            background-color: var(--background-secondary-alt);
+            border-radius: var(--neb-br-normal);
+            position: absolute;
+            content: '';
+            width: 57%;
+            height: 53%;
+            bottom: var(--spacing-normal);
+        }
+    }
+    .tabBarContainer-1s1u-z{
+        background-color: var(--background-secondary-alt);
+        border-radius: var(--neb-br-normal);
+        position: absolute;
+        top:var(--spacing-normal);
+        width:54.5%;
+        .tabBar-2MuP6-{
+            justify-content: center;
+            .tabBarItem-1b8RUP{
+                border: none !important;
+            }
+            [aria-selected="true"]::after{
+                border-radius: var(--neb-br-normal);
+                background-color: var(--background-secondary);
+                position: absolute;
+                content: '';
+                height:6px;
+                width:100%;
+                bottom: 6px;
+            }
+        }
+    }
+}

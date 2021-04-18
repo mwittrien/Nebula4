@@ -1,0 +1,42 @@
+.body-3ND3kc{
+    background-color: var(--background-secondary-alt);
+    border-radius: var(--neb-br-normal);
+    margin: var(--spacing-normal) var(--spacing-normal) var(--spacing-normal) 0;
+    width: 300px;
+    height:425px;
+    .userInfoSection-2acyCx{
+        &:nth-child(1){
+            background-color: var(--background-secondary);
+            border-radius: var(--neb-br-normal);
+            margin-top: var(--spacing-normal);
+            padding: 20px 10px;
+        }
+        &:nth-child(2){
+            background-color: var(--background-secondary);
+            border-radius: var(--neb-br-normal);
+            margin-top: var(--spacing-normal);
+            padding: 10px 10px;
+            border:none;
+            .connectedAccount-36nQx7{
+                background-color: var(--background-secondary-alt);
+                border-radius: var(--neb-br-small);
+                border: none;
+            }
+        }
+    }
+    .infoScroller-3EYYns{
+        padding-right: 0 !important;
+        padding-left: 8px !important;
+    }
+    .listRow-hutiT_{
+        border-radius: calc(var(--neb-br-large) * 2);
+        .listAvatar-1NlAhb{
+            position: relative;
+            margin-right: 5px;
+            right:4px;
+        }
+        &:hover{
+            background-color: var(--background-secondary);
+        }
+    }
+}

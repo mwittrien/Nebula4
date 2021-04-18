@@ -2,15 +2,24 @@
 // ║ Messages           ║ Here is where the messages in chat will be edited. Edit at will.                  ║
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
 
-
 .cozyMessage-3V1Y8y .contents-2mQqc9 > .markup-2BOw-j:not(:empty) {
     background-color: var(--background-tertiary);
-    display: inline-block;
+    display: block;
     max-width: max-content;
-    width:fit-content;
+    width:auto;
     margin: 0;
     padding: 8px;
     border-radius: var(--neb-br-small);
 }
+.header-23xsNx{
+    background-color: var(--background-tertiary);
+    border-radius: var(--neb-br-small);
+    display: inline-block !important;
+    padding: 3px 5px;
+}
 
-
+.markup-2BOw-j code{
+    border-radius: var(--neb-br-small);
+    border: solid 1px var(--background-secondary-alt);
+    width: fit-content;
+}

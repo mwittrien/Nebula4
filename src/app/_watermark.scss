@@ -1,3 +1,26 @@
 // ╔════════════════════╦═══════════════════════════════════════════════════════════════════════════════════╗
 // ║ Watermark          ║ Here is where the watermark will be edited. edit at will.                         ║
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+
+
+.wordmark-2iDDfm {
+    svg {
+        width: 0;
+    }
+    &::after {
+        content: "NEBULA 4";
+        position: absolute;
+        background: #7c7c85;
+        font-family: 'Fredoka One', cursive;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        background-size: 200% 200%;
+        font-size: 16px;
+        font-weight: 600;
+        top: 4px;
+        left: 2px;
+        width: 135px;
+    }
+}

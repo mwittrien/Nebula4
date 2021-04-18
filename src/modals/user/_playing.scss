@@ -1,0 +1,47 @@
+.topSectionPlaying-1J5E4n,
+.topSectionSpotify-1lI0-P{
+    margin: calc(var(--spacing-normal) * 7.5) var(--spacing-normal) var(--spacing-normal) var(--spacing-normal);
+    background-color: transparent;
+    border-radius: var(--neb-br-normal);
+    width:550px;
+    .tabBarContainer-1s1u-z{
+        background-color: var(--background-secondary-alt);
+        border-radius: var(--neb-br-normal);
+        position: absolute;
+        border: none;
+        left:var(--spacing-normal);
+        top:var(--spacing-normal);
+        width: 60.3%;
+        .tabBar-2MuP6-{
+            justify-content: center;
+            .tabBarItem-1b8RUP{
+                border: none !important;
+            }
+            [aria-selected="true"]::after{
+                border-radius: var(--neb-br-normal);
+                background-color: var(--background-secondary);
+                position: absolute;
+                content: '';
+                height:6px;
+                width:100%;
+                bottom: 6px;
+            }
+        }
+    }
+    .headerFill-adLl4x{
+        background-color: var(--background-secondary-alt);
+        border-radius: var(--neb-br-normal);
+        height: 240px;
+        .activity-1ythUs{
+            padding: 20px 10px;
+            button{
+                background-color: var(--button-background);
+                border-radius: var(--neb-br-small);
+                border: none;
+            }
+        }
+        .activityProfile-2bJRaP{
+            padding-top: 0;
+        }
+    }
+}

@@ -66,7 +66,8 @@
         margin: 0 8px;
     }
 }
-[aria-label="Create Invite"]{
+[aria-label="Create Invite"],
+[aria-label="Edit Channel"]{
     display: none !important;
 }
 .selected-3LIHYU{
@@ -107,14 +108,14 @@
     z-index: 10;
     width:30px;
     height:6px;
-    left:78%;
+    left:85%;
     top:52%;
 }
 .container-3w7J-x{
     [style="background-color: rgb(240, 71, 71); width: 16px; padding-right: 1px;"]{
         background-color: transparent !important;
         position: relative;
-        right:64px;
+        right:44px;
         &::after{
             background-color: var(--mention-indicator);
             border-radius: 5px;
