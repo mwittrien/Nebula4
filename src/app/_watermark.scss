@@ -9,7 +9,7 @@
         width: 0;
     }
     &::after {
-        content: "NEBULA 4";
+        content: var(--neb-version1);
         position: absolute;
         background: #7c7c85;
         font-family: 'Fredoka One', cursive;
@@ -20,7 +20,7 @@
         font-size: 16px;
         font-weight: 600;
         top: 4px;
-        left: 2px;
+        left: 10px;
         width: 135px;
     }
 }
