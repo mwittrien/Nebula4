@@ -1,3 +1,20 @@
 // ╔════════════════════╦═══════════════════════════════════════════════════════════════════════════════════╗
-// ║ Watermark          ║ Here is where the watermark will be edited. edit at will.                         ║
+// ║ Chat               ║ Its self explanitory..                                                            ║
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+
+.chat-3bRxxu{
+    border-radius: var(--neb-br-normal);
+    background-color: transparent;
+    margin:0 var(--spacing-normal) 0 0;
+    .content-yTz4x3{
+        &::before{
+            display: none;
+        }
+        .messagesWrapper-1sRNjr{
+            background-color: var(--background-primary);
+            border-radius: var(--neb-br-normal);
+            margin: var(--spacing-normal) 0 var(--spacing-normal) 0;
+        }
+    }
+}

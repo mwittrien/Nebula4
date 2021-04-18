@@ -1,0 +1,19 @@
+.container-3ayLPN{
+    background-color: var(--background-secondary) !important;
+    border-radius: var(--neb-br-normal);
+    box-shadow: none;
+    .resultsGroup-r_nuzN{
+        background-color: var(--background-secondary-alt);
+        border-radius: var(--neb-br-normal);
+        margin: var(--spacing-normal);
+        .option-96V44q{
+            border-radius: var(--neb-br-normal);
+            &::after{
+                display: none;
+            }
+        }
+        .option-96V44q.selected-rZcOL-{
+            background-color: var(--background-tertiary);
+        }
+    }
+}

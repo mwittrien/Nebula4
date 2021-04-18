@@ -1,0 +1,143 @@
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════════════════╗
+// ║ Indicators         ║ This file makes indicators for muted, selected, unread, and mentioned channels.   ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════════════════╗
+// ║ DM indicators      ║ Indicators in the private messages part of discord.                               ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+
+.channel-2QD9_O{
+    max-width: calc(var(--neb-sidebar-width) - 17px);
+    .layout-2DM8Md{
+        border-radius: var(--neb-br-normal);
+        .avatar-3uk_u9{
+            position: relative;
+            margin-right: 10px;
+            right:2px;
+        }
+        &:hover{
+            background-color: var(--background-tertiary);
+        }
+    }
+}
+
+.privateChannels-1nO12o{
+    .channel-2QD9_O.selected-aXhQR6 {
+        margin: 0 !important;
+        max-width: none !important;
+        .layout-2DM8Md{
+            background-color: var(--background-tertiary);
+            border-radius: 0 !important;
+            padding: 11px 15px;
+            &::after{
+                border-radius: var(--neb-br-normal) var(--neb-br-normal) 0 0;
+                background-color: var(--background-primary);
+                content: '';
+                position: absolute;
+                left:0;
+                bottom:0;
+                height:10px;
+                width:100%;
+            }
+            &::before{
+                border-radius: 0 0 var(--neb-br-normal) var(--neb-br-normal);
+                background-color: var(--background-primary);
+                position: absolute;
+                content: '';
+                left:0;
+                top:0;
+                height:10px;
+                width:100%;
+            }
+        }
+    }
+}
+
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════════════════╗
+// ║ Channel Indicators ║ Indicators in the channels.                                                       ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+
+.container-3w7J-x{
+    .content-1x5b-n{
+        border-radius:  var(--neb-br-normal);
+        margin: 0 8px;
+    }
+}
+[aria-label="Create Invite"]{
+    display: none !important;
+}
+.selected-3LIHYU{
+    .content-1x5b-n{
+        background-color: var(--background-tertiary);
+        border-radius: 0 !important;
+        padding: 13px 0 13px 16px;
+        margin: 0 !important;
+        &::after{
+            border-radius: 0 0 var(--neb-br-normal) var(--neb-br-normal);
+            background-color: var(--background-primary);
+            position: absolute;
+            content: '';
+            width:100%;
+            height:10px;
+            left:0;
+            top:0;
+        }
+        &::before{
+            border-radius: var(--neb-br-normal) var(--neb-br-normal) 0 0;
+            background-color: var(--background-primary);
+            position: absolute;
+            content: '';
+            width:100%;
+            height:10px;
+            left:0;
+            bottom: 0;
+        }
+    }
+    .modeSelected-346R90:hover .content-1x5b-n{
+        background-color: var(--background-tertiary);
+    }
+}
+
+.unread-2lAfLh{
+    background-color: var(--unread-indicator);
+    border-radius: 5px;
+    z-index: 10;
+    width:30px;
+    height:6px;
+    left:78%;
+    top:52%;
+}
+.container-3w7J-x{
+    [style="background-color: rgb(240, 71, 71); width: 16px; padding-right: 1px;"]{
+        background-color: transparent !important;
+        position: relative;
+        right:64px;
+        &::after{
+            background-color: var(--mention-indicator);
+            border-radius: 5px;
+            position: absolute;
+            content: '';
+            left:15px;
+            height:6px;
+            width:30px;
+            z-index: 11;
+        }
+    }
+}
+
+.modeMuted-onO3r-{
+    &::before{
+        border-radius: 5px;
+        background-color: var(--muted-indicator);
+        content: '';
+        position: absolute;
+        width:32px;
+        height:7px;
+        right:36px;
+        z-index: 10;
+        top:40%;
+    }
+}

@@ -1,0 +1,13 @@
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════════════════╗
+// ║ Tooltips           ║ Here is where the tooltips, or the label that pops out is edited. Edit at will.   ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+
+.tooltipPrimary-1d1ph4{
+    background-color: var(--background-secondary-alt) !important;
+    border-radius: var(--neb-br-normal);
+    box-shadow: none !important;
+    .tooltipPointer-3ZfirK{
+        display: none;
+    }
+}

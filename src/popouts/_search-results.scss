@@ -1,0 +1,43 @@
+.searchResultsWrap-3-pOjs{
+    background-color: var(--background-primary);
+    margin: var(--spacing-normal) 0 var(--spacing-normal) var(--spacing-normal);
+    border-radius: var(--neb-br-normal);
+    .searchHeader-2XoQg7{
+        background-color: var(--background-secondary-alt);
+        border-radius: var(--neb-br-normal);
+        margin: var(--spacing-normal);
+        .tab-2j5AEF.selected-2LAck8{
+            background-color:var(--background-tertiary);
+        }
+    }
+    .scroller-3GIiMh{
+        background-color: var(--background-secondary-alt);
+        border-radius: var(--neb-br-normal);
+        margin: var(--spacing-normal);
+        .channelName-1JRO3C{
+            border-radius: var(--neb-br-small);
+            padding: 5px;
+        }
+        .searchResultGroup-1DphGG{
+            margin-bottom: 10px;
+        }
+        .container-NdaZbY{
+            background-color: var(--background-primary);
+            margin-bottom: var(--spacing-normal);
+            border-radius: var(--neb-br-normal);
+            .pageControlContainer-eP-SVd{
+                margin: 0;
+                .activeButton-rvKcqqm,
+                .pageButton-2ruNwd{
+                    background-color: var(--background-secondary-alt);
+                    border-radius: var(--neb-br-small);
+                    transition: 0.6s ease all;
+                }
+                .roundButton-CEHyUp{
+                    height:30px;
+                    width:30px;
+                }
+            }
+        }
+    }
+}

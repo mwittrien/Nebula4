@@ -1,0 +1,24 @@
+.menu-3sdvDG{
+    background-color: var(--background-secondary-alt);
+    border-radius: var(--neb-br-medium);
+    .customItem-a8hq58{
+        background-color: var(--background-primary);
+        border-radius:var(--neb-br-small);
+        transition: 0.3s ease all;
+        border: none;
+        .button-F9qN4n{
+            border-radius: var(--neb-br-small);
+            background-color: transparent;
+        }
+        &:hover{
+            background-color: var(--background-tertiary);
+        }
+    }
+    .colorDefault-2K3EoJ.focused-3afm-j,
+    .colorDefault-2K3EoJ:active:not(.hideInteraction-1iHO1O){
+        background-color: var(--background-tertiary);
+    }
+    .colorDefault-2K3EoJ{
+        border-radius: var(--neb-br-medium);
+    }
+}

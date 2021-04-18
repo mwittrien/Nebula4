@@ -1,3 +1,25 @@
 // ╔════════════════════╦═══════════════════════════════════════════════════════════════════════════════════╗
-// ║ Watermark          ║ Here is where the watermark will be edited. edit at will.                         ║
+// ║ inputs             ║ Here is where inputs (insert text) in modals will be edited. Edit at will.        ║
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+
+.root-1gCeng{
+    .input-cIJ7To{
+        border-radius: var(--neb-br-normal);
+        border: none;
+        &:focus-within{
+            border: solid 1px var(--background-tertiary);
+        }
+    }
+    .phoneField-38N1bJ{
+        border-radius: var(--neb-br-normal);
+        button{
+            background-color: var(--button-background) !important;
+            border-radius: var(--neb-br-small);
+            &:hover{
+                background-color: var(--button-hover);
+            }
+        }
+    }
+}
+

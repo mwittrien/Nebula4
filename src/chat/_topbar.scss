@@ -1,18 +1,33 @@
 // ╔════════════════════╦═══════════════════════════════════════════════════════════════════════════════════╗
-// ║ Footer Modal       ║ Here is where the footer in modals will be edited. Edit at will.                  ║
+// ║ Topbar             ║ This is like... the context menu!                                                 ║
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
 
 
-.footer-2gL1pp{
-    background-color: var(--background-secondary-alt) !important;
+.container-1r6BKw{
     border-radius: var(--neb-br-normal);
-    margin: var(--spacing-normal);
-    box-shadow: none !important;
-    button{
-        background-color: var(--button-background) !important;
-        border-radius: var(--neb-br-normal);
-        &:hover{
-            background-color: var(--button-hover) !important;
+    height:var(--neb-topbar-height);
+    .toolbar-1t6TWx{
+        [href="https://support.discord.com"],
+        [aria-checked="false"],
+        [aria-checked="true"]{
+            display: none;
+        }
+        .search-36MZv-{
+            margin: 0;
+            order:1;
+            .searchBar-3dMhjb{
+                transition: width 0.6s ease-in-out;
+                border-radius: var(--neb-br-small);
+                color:#fff;
+                width:120px;
+                &:focus-within{
+                    width: 230px;
+                }
+            }
         }
     }
 }
+
+
+
+

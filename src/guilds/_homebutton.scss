@@ -1,0 +1,20 @@
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════════════════╗
+// ║ Home Button        ║ The home button used to go to your Direct Messages.                               ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+.tutorialContainer-2sGCg9{
+    background-color: var(--background-primary);
+    border-radius: var(--neb-br-normal);
+    top:calc(var(--spacing-double) + 3px);
+    position: fixed;
+    padding: 10px 0 4px 0;
+    .childWrapper-anI2G9{
+        background-color: var(--background-secondary-alt);
+    }
+    .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9{
+        background-color: var(--background-secondary-alt);
+    }
+    .pill-3N7f9r{
+        display: none;
+    }
+}

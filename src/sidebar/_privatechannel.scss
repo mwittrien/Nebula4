@@ -1,12 +1,23 @@
 // ╔════════════════════╦═══════════════════════════════════════════════════════════════════════════════════╗
-// ║ Notices            ║Here is where the long bar at the top of your screen will be edited. Edit at will. ║
+// ║ Direct Messages    ║ Below will be where the Direct Messages part of the sidebar is edited.             ║
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
 
-
-.notice-3bPHh-{
-    margin: calc(var(--spacing-half) - 2px) var(--spacing-normal) var(--spacing-normal) 0;
+.privateChannels-1nO12o{
+    background-color: var(--background-primary);
     border-radius: var(--neb-br-normal);
-    button{
-        border-radius: var(--neb-br-small);
+    .searchBar-6Kv8R2{
+        background-color: var(--background-secondary-alt);
+        border-radius: var(--neb-br-normal);
+        margin: var(--spacing-normal);
+        box-shadow: none;
+        .searchBarComponent-32dTOx{
+            border-radius: var(--neb-br-small);
+        }
+    }
+    .scroller-1JbKMe{
+        background-color: transparent;
+    }
+    ::-webkit-scrollbar{
+        display: none;
     }
 }

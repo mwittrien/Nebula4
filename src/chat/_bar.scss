@@ -1,0 +1,36 @@
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════════════════╗
+// ║ Bars               ║ This file manages the following: Replying to "", jump to present, mark as read.   ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+// Replying To ""
+
+.container-2fRDfG{
+    background-color: var(--channeltextarea-background);
+    border-radius: var(--neb-br-small);
+    margin-bottom:5px;
+    .colorBrand-2tjs5J{
+        color:var(--header-primary);
+    }
+}
+.hasReply-16cIUP{
+    border-radius: var(--neb-br-small);
+}
+
+// New messages/ mark as read
+.newMessagesBar-265mhP{
+    background-color: var(--background-tertiary);
+    border-radius: var(--neb-br-normal);
+    box-shadow: none;
+    padding:3px;
+    opacity: 1;
+    top:10px;
+}
+
+// Jump to present
+.jumpToPresentBar-G1R9s6{
+    background-color: var(--background-tertiary);
+    border-radius: var(--neb-br-normal);
+    padding: 3px !important;
+    bottom: 10px;
+    opacity: 1;
+}

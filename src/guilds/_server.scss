@@ -1,0 +1,38 @@
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════════════════╗
+// ║ Server List        ║ Server list - A list used to go to different guilds/servers.                      ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+.wrapper-3NnKdC{
+    background-color: transparent;
+    margin: 0 var(--spacing-normal) var(--spacing-normal) var(--spacing-normal);
+    .scroller-1Bvpku{
+        margin-top: calc(var(--spacing-quin) * 1.65);
+        margin-bottom: calc(var(--spacing-quin) * 1.65);
+        background-color: var(--background-primary);
+        border-radius: var(--neb-br-normal);
+        padding-bottom: 4px;
+        padding-top: 6px;
+        contain: none;
+        .guildSeparator-33mFX6{
+            display: none;
+        }
+        .wrapper-25eVIn foreignObject{
+            border-radius: calc(var(--neb-br-normal) - 4px);
+            mask:none;
+        }
+        .folder-1hbNCn, .folderIconWrapper-1_bOZe{
+            border-radius: 0;
+        }
+        ul.tree-2wKJdG:focus {
+            outline-color: transparent;
+        }
+        .base-PmTxvP{
+            border-radius: var(--neb-br-small);
+            position: relative;
+            min-width: 20px;
+            min-height:20px;
+            height:12px;
+            left:5px;
+            top:5px;
+        }
+    }
+}

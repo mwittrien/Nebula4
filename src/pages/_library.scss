@@ -1,0 +1,21 @@
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════════════════╗
+// ║ Library Page       ║ Here is where the library page will be edited. Edit at will.                      ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+
+.container-3Mxszk{
+    margin: 0 var(--spacing-normal) var(--spacing-normal) 0;
+    .scroller-1IIF0A,
+    .scroller-2XE8rp{
+        border-radius: var(--neb-br-normal);
+        margin-top: var(--spacing-normal);
+    }
+    .libraryHeader-3g95kE{
+        &::before{
+            display: none;
+        }
+        .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ{
+            background-color: var(--background-tertiary);
+        }
+    }
+}

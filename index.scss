@@ -48,10 +48,9 @@
 --neb-secondary-alt-dark:#2d325a;
 --neb-tertiary-dark:#1b1f38;
 
---neb-unread-indicator-dark:var(--neb-unread-indicator-dark);
---neb-mention-indicator-dark:var(--neb-mention-indicator-dark);
---neb-mention-number-dark:var(--neb-mention-number-dark);
---neb-muted-indicator-dark:var(--neb-muted-indicator-dark);
+--neb-unread-indicator-dark:rgba(255, 255, 255, 0.144);
+--neb-mention-indicator-dark:rgb(250, 71, 71);
+--neb-muted-indicator-dark:var(--background-tertiary);
 
 --channeltextarea-background-dark:var(--neb-secondary-alt-dark);
 
@@ -64,10 +63,10 @@
 // ║Light Mode Variables║ Nebulas variables for light mode are below, alter at will.                        ║
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
 
---neb-primary-light:PLACEHOLDER;
---neb-secondary-light:PLACEHOLDER;
---neb-secondary-alt-light:PLACEHOLDER;
---neb-tertiary-light:PLACEHOLDER;
+--neb-primary-light:rgb(213, 215, 252);
+--neb-secondary-light:#a9abc9;
+--neb-secondary-alt-light:rgb(255, 255, 255);
+--neb-tertiary-light:rgb(240, 241, 255);
 
 --neb-unread-indicator-light:PLACEHOLDER;
 --neb-mention-indicator-light:PLACEHOLDER;
@@ -107,7 +106,9 @@
 
 // Border Radius
 --neb-br-none:0;
---neb-br-small:10px;
+--neb-br-small:5px;
+--neb-br-normal:10px;
+--neb-br-medium:15px;
 --neb-br-large:20px;
 
 // Font
@@ -129,8 +130,21 @@
 // Sidebar
 --neb-sidebar-width:300px;
 
+// Topbar height
+
+--neb-topbar-height:40px;
+
 // Modal
 --neb-backdrop-blur:5px;
+
+// Spacing
+
+--spacing-half:5px;
+--spacing-normal: 10px;
+--spacing-double: calc(var(--spacing-normal) * 2);
+--spacing-triple: calc(var(--spacing-normal) * 3);
+--spacing-quad: calc(var(--spacing-normal) * 4);
+--spacing-quin: calc(var(--spacing-normal) * 5);
 
 // ╠════════════════════════════END ELEMENT DEPENDENT VARIABLES / START PATHS═══════════════════════════════╣
 
@@ -157,6 +171,8 @@
     --background-secondary:var(--neb-secondary-dark);
     --background-secondary-alt:var(--neb-secondary-alt-dark);
     --background-tertiary:var(--neb-tertiary-dark);
+    --channels-default:var(--header-primary);
+    --text-muted:var(--header-primary);
 
     --unread-indicator:var(--neb-unread-indicator-dark);
     --mention-indicator:var(--neb-mention-indicator-dark);
@@ -169,6 +185,7 @@
     
     --button-background:var(--neb-button-background-dark);
     --button-hover:var(--neb-button-hover-dark);
+
 }
 
 // ╔════════════════════╦═══════════════════════════════════════════════════════════════════════════════════╗

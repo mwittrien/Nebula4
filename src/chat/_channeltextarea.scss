@@ -1,0 +1,36 @@
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════════════════╗
+// ║ Channel text Area  ║ This is where you type!                                                           ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+
+.form-2fGMdU{
+    margin:0 0 var(--spacing-normal) 0;
+    border-radius: var(--neb-br-normal);
+    background-color: var(--background-primary);
+    padding-right:10px;
+    padding-left: 10px;
+    &::before{
+        display: none;
+    }
+    .channelTextArea-rNsIhG{
+        border-radius: var(--neb-br-normal);
+        margin: 10px 0 20px 0;
+    }
+    .base-gE7OpD{
+        background-color: var(--channeltextarea-background);
+        border-radius: calc(var(--neb-br-normal) - 4px);
+        position: relative;
+        padding: 4px;
+        bottom:10px;
+        left:0px;
+    }
+    .wrapper-39oAo3{
+        background-color: var(--channeltextarea-background);
+        border-radius: var(--neb-br-normal);
+        margin-top:10px;
+        button{
+            background-color: var(--button-background);
+            border-radius: var(--neb-br-normal);
+        }
+    }
+}

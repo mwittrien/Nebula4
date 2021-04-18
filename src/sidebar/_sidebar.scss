@@ -1,0 +1,11 @@
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════════════════╗
+// ║ Sidebar            ║ This file changes the main part of the sidebar, channel list and Direct messages. ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+.sidebar-2K8pFh{
+    margin: 0 var(--spacing-normal) var(--spacing-normal) 0;
+    background-color: transparent;
+    width: var(--neb-sidebar-width);
+    border-radius: 0 !important;
+    flex-direction: column-reverse;
+}

@@ -1,0 +1,26 @@
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════════════════╗
+// ║ Panel              ║ This file edits the following Profile, Activity, Call, Spotify.                   ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+.panels-j1Uci_{
+    display: flex;
+    flex-direction: column-reverse;
+    border-radius: var(--neb-br-normal);
+    margin-bottom: var(--spacing-normal);
+    background-color: transparent;
+    .container-3baos1{
+        background-color: var(--background-primary);
+        border-radius: var(--neb-br-normal);
+        height:var(--neb-topbar-height);
+    }
+    .container-1giJp5{
+        background-color: var(--background-primary);
+        border-radius: var(--neb-br-normal);
+        margin-top: var(--spacing-normal);
+        border: none;
+        .lookFilled-1Gx00P.colorBrand-3pXr91{
+            background-color: var(--background-tertiary);
+            border-radius: var(--neb-br-normal);
+        }
+    }
+}

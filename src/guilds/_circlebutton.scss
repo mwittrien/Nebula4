@@ -1,0 +1,26 @@
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════════════════╗
+// ║ Circle Buttons     ║ The buttons at the bottom of the scroller - Explore, and creating/joining guilds. ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+.circleIconButton-1QV--U{
+    background-color: var(--background-secondary-alt);
+    color:var(--header-primary);
+    &:hover{
+        background-color: var(--background-secondary);
+        color:var(--header-primary);
+    }
+}
+.tutorialContainer-30WoTp{
+    position: fixed;
+    bottom: calc(var(--spacing-normal) + 3px);
+    &::before{
+        border-radius: var(--neb-br-normal);
+        background-color: var(--background-primary);
+        position: absolute;
+        padding-bottom: 4px;
+        content: '';
+        height:118%;
+        width:100%;
+        bottom:-3px;
+    }
+}

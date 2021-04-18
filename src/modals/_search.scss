@@ -1,0 +1,34 @@
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════════════════╗
+// ║ Search Modal       ║ Here is where the search modal will be edited. Edit at will.                      ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+
+.quickswitcher-3JagVE{
+    border-radius: var(--neb-br-large);
+    box-shadow: none;
+    .input-2VB9rf{
+        background-color: var(--background-secondary-alt);
+        border-radius: var(--neb-br-normal);
+        box-shadow: none;
+    }
+    .scroller-zPkAnE{
+        background-color: var(--background-secondary-alt);
+        margin-top: var(--spacing-normal);
+        border-radius: var(--neb-br-normal);
+        margin-right: 0;
+        .result-oB0z--{
+            border-radius: var(--neb-br-medium);
+            margin-left: 15px;
+            &:hover{
+                background-color: var(--background-tertiary);
+            }
+        }
+        .resultFocused-3aIoYe{
+            background-color: var(--background-secondary);
+        }
+    }
+    .protip-1b9XPC{
+        margin-right: 15px;
+        border: none;
+    }
+}

@@ -1,0 +1,31 @@
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════════════════╗
+// ║ Members            ║ This is the member list!                                                          ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+
+.membersWrap-2h-GB4{
+    background-color: var(--background-primary);
+    border-radius: var(--neb-br-normal);
+    margin: var(--spacing-normal);
+    margin-right: 0 !important;
+    div{
+        background-color: transparent;
+        transition: 200ms ease all;
+        .member-3-YXUe{
+            border-radius: var(--neb-br-large);
+            &:hover{
+                background-color: var(--background-secondary-alt);
+            }
+        }
+    }
+    .clickable-1JJAn8:hover .layout-2DM8Md{
+        background-color: transparent;
+    }
+    .selected-aXhQR6 .layout-2DM8Md{
+        background-color: var(--background-secondary-alt);
+        border-radius: var(--neb-br-large);
+    }
+    ::-webkit-scrollbar{
+        display: none;
+    }
+}

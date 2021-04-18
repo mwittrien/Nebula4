@@ -1,0 +1,36 @@
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════════════════╗
+// ║ Friends Page       ║ Here is where the friends page will be edited. Edit at will.                      ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+
+.container-1D34oG{
+    background-color: transparent !important;
+    margin-right: var(--spacing-normal);
+    .tabBody-3YRQ8W{
+        &::before{
+            display: none;
+        }
+        .peopleColumn-29fq28{
+            margin: var(--spacing-normal) var(--spacing-normal) var(--spacing-normal) 0;
+            background-color: var(--background-primary);
+            border-radius: var(--neb-br-normal);
+        }
+        .nowPlayingColumn-2sl4cE{
+            background-color: var(--background-primary);
+            border-radius: var(--neb-br-normal);
+            margin: var(--spacing-normal) 0;
+            .wrapper-3D2qGf{
+                background-color: var(--background-secondary-alt);
+                border-radius: var(--neb-br-normal);
+                padding: 10px;
+                .body-1ld4H7{
+                    background-color: var(--background-primary);
+                    border-radius: var(--neb-br-normal);
+                }
+            }
+            .separator-XqIyoz{
+                display: none;
+            }
+        }
+    }
+}

@@ -1,0 +1,46 @@
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════════════════╗
+// ║ Calls              ║ Here is where the private calls be edited. Edit at will.                          ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+
+.wrapper-2qzCYF.minimum-28Z35l{
+    background-color: var(--background-primary);
+    border-radius: var(--neb-br-normal);
+    .headerWrapper-3NUKsd{
+        background-color: var(--background-secondary-alt);
+        border-radius: var(--neb-br-normal) var(--neb-br-normal) 0 var(--neb-br-normal);
+        margin: var(--spacing-normal) 0 0 0;
+    }
+    .quickSelect-3BxO0K{
+        border-radius: 0 0 var(--neb-br-normal) var(--neb-br-normal);
+        background-color: var(--background-secondary-alt);
+        padding: 5px;
+    }
+    .wrapper-3EGhDO{
+        background-color: var(--background-secondary-alt);
+        border-radius: var(--neb-br-normal);
+        padding: 6px 0px;
+        foreignObject{
+            mask: none;
+            .centerButton-3CaNcJ{
+                background-color: var(--background-primary);
+                border-radius: var(--neb-br-normal);
+            }
+        }
+        .centerButton-3CaNcJ{
+            border-radius: var(--neb-br-normal);
+        }
+        .colorable-1bkp8v.primaryDark-3mSFDl{
+            background-color: var(--background-secondary);
+        }
+        .contextMenuNub-3yOOYo{
+            background-color: var(--background-primary) !important;
+            border-radius: 45%;
+        }
+    }
+}
+.quickSelectPopout-X1hvgV{
+    background-color: var(--background-secondary-alt) !important;
+    border-radius: var(--neb-br-normal);
+    box-shadow: none;
+}

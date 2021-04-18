@@ -1,0 +1,15 @@
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════════════════╗
+// ║ Scrollbar          ║ Here is where the scrollbar will be edited. Edit at will.                      ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: transparent !important;
+    border-radius: var(--neb-br-normal);
+}
+::-webkit-scrollbar-thumb {
+    background-color: var(--background-tertiary) !important;
+}
+::-webkit-scrollbar-track {
+    display: none;
+}

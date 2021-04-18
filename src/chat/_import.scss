@@ -1,5 +1,7 @@
+@use "./bar";
 @use "./calls";
 @use "./channeltextarea";
-@use "./codeblock";
+@use "./chat";
 @use "./members";
 @use "./messages";
+@use "./topbar";
