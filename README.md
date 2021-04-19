@@ -18,6 +18,4 @@
 Nebula 4 is still alpha meaning some of the "new" features listed are not 100% complete.
 
 
-### For more information regarding installing and customizations and other topics, please visit the [Nebula Wiki](wiki.com)
-
----
+### For more information regarding installing and customizations and other topics, please visit the [Nebula Wiki](https://github.com/Pavui/Nebula4/wiki)
