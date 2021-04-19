@@ -115,17 +115,6 @@
 --neb-br-medium:15px;
 --neb-br-large:20px;
 
-// Font
---neb-font-size-XS:7;
---neb-font-size-S:11px;
---neb-font-size-M:15px;
---neb-font-size-L:20px;
---neb-font-size-XL:30px;
-
---neb-font-weight-light: 300;
---neb-font-weight-normal: 400;
---neb-font-weight-semibold: 600;
---neb-font-weight-bold: 700;
 
 // Nebula Version
 --neb-version1:"Nebula 4 Alpha";
@@ -150,16 +139,7 @@
 --spacing-quad: calc(var(--spacing-normal) * 4);
 --spacing-quin: calc(var(--spacing-normal) * 5);
 
-// ╠════════════════════════════END ELEMENT DEPENDENT VARIABLES / START PATHS═══════════════════════════════╣
-
-// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════════════════╗
-// ║ SVG Paths          ║ Nebula icon paths go below, I dont recommend changing any of the values.          ║
-// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
-
---neb-home-button-path:PLACEHOLDER;
---neb-back-button-path:PLACEHOLDER;
---neb-close-button-path:PLACEHOLDER;
---neb-maximize-button-path:PLACEHOLDER;
+// ╠═══════════════════════END ELEMENT DEPENDENT VARIABLES / START DISCORD VARS═════════════════════════════╣
 
 }
 

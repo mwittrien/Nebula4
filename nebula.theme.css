@@ -34,54 +34,15 @@
 /* Source Code Import */
 
 
-
+@import url('https://pavui.github.io/Nebula4/base.css');
 
 /* Nebula 3 Variables */
 :root{
---neb-primary:#25294a; 
---neb-secondary:#202442;
---neb-secondary-alt:#2d325a;
---neb-tertiary:#1b1f38;
-
---unread-bg: var(--neb-secondary-alt);
---selected-badge: rgba(112, 134, 215, 0);
---selected-bg: var(--neb-tertiary);
---selected-bg-hover: var(--neb-secondary-alt);
---hovered-bg: var(--neb-secondary-alt);
-
---modal-backdrop-blur: blur(5px);
-
---neb-status-online: rgb(53, 177, 125);
---neb-status-idle: rgb(238, 185, 11);
---neb-status-dnd: rgb(215, 58, 73);
---neb-status-streaming: rgb(89, 54, 149);
---neb-status-offline: rgb(117, 128, 142);
-
---radio-bar-accent-color-red: #f04747;
---radio-bar-accent-color-yellow:#faa61a;
---radio-bar-accent-color-green:#43b581;
-
---disabled-toggle-background:rgb(88, 96, 122);
---enabled-toggle-background:rgb(66, 78, 143);
-
---neb-border-radius0:0px; /*Default 0px*/
---neb-border-radius1: 18px; /*Default 15px*/
---neb-border-radius2: 25px; /*Default 25px*/
---server-radius-active:9px; /*Default 9px*/
---server-radius-hover:5px; /* Default 5px*/
---neb-topbar-height: 40px; /*Default 40px, Min 29px*/
---neb-sidebar-width: 320px; /*Do not change*/
---margin:10px; /*Default 10px*/
---neb-version: "Nebula 3 Release"; /*Dont Change*/
---neb-version-titlebar:"v3.9.8 Release";
---medium-font-size:18px; /*Default 18px*/
---transition:100ms ease all;
---long-transition:250ms ease all;
---neb-track:transparent;
---neb-thumb:var(--neb-tertiary);
---border-inactive: solid 2px var(--background-tertiary);
---border-active: solid 2px var(--neb-white);
-}
+--neb-primary-dark:#25294a;
+--neb-secondary-dark:#202442;
+--neb-secondary-alt-dark:#2d325a;
+--neb-tertiary-dark:#1b1f38;
+{}
 
 /*
 Put Any Custom CSS Below

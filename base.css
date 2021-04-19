@@ -1283,15 +1283,6 @@
   --neb-br-normal:10px;
   --neb-br-medium:15px;
   --neb-br-large:20px;
-  --neb-font-size-XS:7;
-  --neb-font-size-S:11px;
-  --neb-font-size-M:15px;
-  --neb-font-size-L:20px;
-  --neb-font-size-XL:30px;
-  --neb-font-weight-light: 300;
-  --neb-font-weight-normal: 400;
-  --neb-font-weight-semibold: 600;
-  --neb-font-weight-bold: 700;
   --neb-version1:"Nebula 4 Alpha";
   --neb-version2:"4.0.0";
   --neb-sidebar-width:300px;
@@ -1303,10 +1294,6 @@
   --spacing-triple: calc(var(--spacing-normal) * 3);
   --spacing-quad: calc(var(--spacing-normal) * 4);
   --spacing-quin: calc(var(--spacing-normal) * 5);
-  --neb-home-button-path:PLACEHOLDER;
-  --neb-back-button-path:PLACEHOLDER;
-  --neb-close-button-path:PLACEHOLDER;
-  --neb-maximize-button-path:PLACEHOLDER;
 }
 
 .theme-dark {
