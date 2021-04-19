@@ -1,8 +1,8 @@
 {
     "name": "Nebula 4",
-    "version": "4.0.0 Beta Release",
+    "version": "4.0.0 Alpha Release",
     "author": "Pavol#3481",
     "license": "MIT",
     "theme": "index.scss",
-    "description": "The dark blue redesign of discord."
+    "description": "Discord, but sadly its round and blue"
 }

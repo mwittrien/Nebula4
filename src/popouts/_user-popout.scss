@@ -1,0 +1,69 @@
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════════════════╗
+// ║ User Popouts       ║ Here is...idk how to explain it.. User popout!                                    ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+
+.userPopout-3XzG_A{
+    background-color: var(--background-secondary-alt);
+    border-radius: var(--neb-br-medium);
+    box-shadow: var(--elevation-high);
+    .headerNormal-T_seeN,
+    .headerPlaying-j0WQBV,
+    .headerSpotify-zpWxgT{
+        box-shadow: var(--elevation-high);
+        margin: var(--spacing-normal);
+        background-color: var(--background-secondary);
+        border-radius: var(--neb-br-normal);
+        .activity-11LB_k{
+            background-color: var(--background-primary);
+            border-radius: var(--neb-br-normal);
+            margin: var(--spacing-normal);
+            button{
+                background-color: var(--background-secondary-alt);
+                border-radius: var(--neb-br-small);
+                border:none;
+            }
+        }
+    }
+    .body-3iLsc4{
+        background-color: transparent;
+        padding-left: 14px !important;
+        padding-top: 10px !important;
+        padding: 0;
+        .bodyInnerWrapper-Z8WDxe{
+            padding-right: 6px;
+        }
+        .note-3HfJZ5{
+            display: none;
+        }
+        .rolesList-22qj2L{
+            padding-top: 23px;
+            &::before{
+                content: 'ROLES';
+                position: absolute;
+                font-weight: 900;
+                color:var(--header-secondary);
+                font-size: 13px;
+                top:0;
+            }
+        }
+        .bodyTitle-Y0qMQz{
+            display: none;
+        }
+    }
+    .footer-1fjuF6{
+        background-color: var(--background-secondary);
+        margin: var(--spacing-normal);
+        margin-top: 0 !important;
+        border-radius: var(--neb-br-normal);
+        padding: var(--spacing-double) 10px;
+        padding-top: 10px !important;
+        box-shadow: var(--elevation-high);
+        .input-cIJ7To{
+            background-color: var(--background-secondary-alt);
+            border-radius: var(--neb-br-small);
+            box-shadow: var(--elevation-high);
+            border: none;
+        }
+    }
+}

@@ -8,17 +8,42 @@
     border-radius: var(--neb-br-normal);
     background-color: var(--background-primary);
     padding-right:10px;
-    padding-left: 10px;
+    padding-left: 0px;
     &::before{
         display: none;
     }
     .channelTextArea-rNsIhG{
+        background-color: transparent;
         border-radius: var(--neb-br-normal);
         margin: 10px 0 20px 0;
+        .scrollableContainer-2NUZem{
+            background-color: transparent;
+            position: relative;
+            left:10px;
+            .attachButton-2WznTc{
+                background-color: var(--channeltextarea-background);
+                border-radius: var(--neb-br-normal);
+                margin-right: var(--spacing-normal);
+            }
+            .textArea-12jD-V{
+                background-color: var(--channeltextarea-background);
+                border-radius: var(--neb-br-normal);
+                .fontSize16Padding-3Wk7zP{
+                    padding: 11px;
+                }
+            }
+            .buttons-3JBrkn{
+                background-color: var(--channeltextarea-background);
+                border-radius: var(--neb-br-normal);
+                margin: 0;
+                margin-left: var(--spacing-normal) !important;
+            }
+        }
     }
     .base-gE7OpD{
         background-color: var(--channeltextarea-background);
         border-radius: calc(var(--neb-br-normal) - 4px);
+        margin-left: var(--spacing-normal);
         position: relative;
         padding: 4px;
         bottom:10px;
@@ -34,3 +59,4 @@
         }
     }
 }
+
