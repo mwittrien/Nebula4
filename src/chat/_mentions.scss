@@ -1,0 +1,13 @@
+.mentioned-xhSam7{
+    background-color: var(--background-secondary-alt);
+    &::before{
+        background-color: var(--background-secondary-alt) !important;
+        border-radius: var(--neb-br-medium);
+        position: absolute;
+        left:-10px;
+        width:7px;
+    }
+    .wrapper-3WhCwL{
+        color: var(--header-primary);
+    }
+}

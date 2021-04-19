@@ -16,6 +16,16 @@
     display: inline-block !important;
     padding: 3px 5px;
 }
+.cozy-3raOZG.wrapper-2a6GCs{
+    border-radius: var(--neb-br-normal);
+    margin-left: calc(var(--spacing-normal) * 1.5);
+    transition: 0.2s ease all;
+    padding-bottom: 6px;
+    padding-top: 10px;
+    &:hover:not(.mentioned-xhSam7){
+        background-color: var(--background-secondary-alt);
+    }
+}
 
 
 .markup-2BOw-j code{
