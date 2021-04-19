@@ -1,32 +1,24 @@
 // ╔════════════════════╦═══════════════════════════════════════════════════════════════════════════════════╗
-// ║ Panel              ║ This file edits the following Profile, Activity, Call, Spotify.                   ║
+// ║ Pinned Messages    ║ Messages that are pinned for future reference.                                    ║
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
 
-.panels-j1Uci_{
-    display: flex;
-    flex-direction: column-reverse;
+.messagesPopoutWrap-1MQ1bW{
+    background-color: var(--background-secondary-alt);
     border-radius: var(--neb-br-normal);
-    margin-bottom: var(--spacing-normal);
-    background-color: transparent;
-    .container-3baos1{
+    .header-ykumBX{
         background-color: var(--background-primary);
         border-radius: var(--neb-br-normal);
-        height:var(--neb-topbar-height);
+        margin: var(--spacing-normal);
     }
-    .container-1giJp5{
+    .messagesPopout-24nkyi{
         background-color: var(--background-primary);
         border-radius: var(--neb-br-normal);
-        margin-top: var(--spacing-normal);
-        border: none;
-        .lookFilled-1Gx00P.colorBrand-3pXr91{
-            background-color: var(--background-tertiary);
+        margin: var(--spacing-normal);
+        margin-top: 0 !important;
+        .messageGroupWrapper-o-Zw7G{
+            background-color: var(--background-secondary);
             border-radius: var(--neb-br-normal);
+            border: none;
         }
-    }
-    .panel-24C3ux{
-        background-color: var(--background-primary);
-        border-radius: var(--neb-br-normal);
-        margin-top: var(--spacing-normal);
-        border: none;
     }
 }
