@@ -1,3 +1,28 @@
 // ╔════════════════════╦═══════════════════════════════════════════════════════════════════════════════════╗
 // ║ Inbox              ║ Where unread or mentions can be found and addressed.                              ║
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+.container-enaOkj{
+    background-color: var(--background-secondary-alt);
+    border-radius: var(--neb-br-normal);
+    .header-2-Imhb{
+        background-color: var(--background-secondary);
+        border-radius: var(--neb-br-normal);
+        margin: var(--spacing-normal);
+    }
+    .scroller-tlc3kG{
+        border-radius: var(--neb-br-normal);
+        padding: 0 10px;
+        .messages-3G3erD{
+            border-radius: var(--neb-br-normal);
+            margin-top: var(--spacing-normal);
+            .divider-39oAwV{
+                display: none;
+            }
+        }
+        .channelHeader-3Gd2xq{
+            background-color: var(--background-primary);
+            border-radius: var(--neb-br-normal);
+        }
+    }
+}

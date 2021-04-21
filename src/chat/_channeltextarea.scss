@@ -12,6 +12,10 @@
     &::before{
         display: none;
     }
+    .sansAttachButton-td2irx{
+        border-radius: var(--neb-br-normal);
+        padding: 0 !important;
+    }
     .channelTextArea-rNsIhG{
         background-color: transparent;
         border-radius: var(--neb-br-normal);
@@ -23,7 +27,8 @@
             .attachButton-2WznTc{
                 background-color: var(--channeltextarea-background);
                 border-radius: var(--neb-br-normal);
-                margin-right: var(--spacing-normal);
+                padding-left: 32px;
+                margin-right:var(--spacing-normal);
             }
             .textArea-12jD-V{
                 background-color: var(--channeltextarea-background);
