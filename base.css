@@ -56,8 +56,9 @@
 
 .container-2fRDfG {
   background-color: var(--channeltextarea-background);
-  border-radius: var(--neb-br-small);
-  margin-bottom: 5px;
+  border-radius: var(--neb-br-normal);
+  margin-bottom: 10px;
+  margin-left: var(--spacing-normal);
 }
 
 .container-2fRDfG .colorBrand-2tjs5J {
@@ -83,6 +84,17 @@
   padding: 3px !important;
   bottom: 10px;
   opacity: 1;
+}
+
+.messagesErrorBar-nyJGU7 {
+  border-radius: var(--neb-br-normal);
+  margin-bottom: var(--spacing-normal);
+  padding: 3px !important;
+  opacity: 1;
+}
+
+.messagesErrorBar-nyJGU7:active {
+  margin-bottom: var(--spacing-normal) !important;
 }
 
 .wrapper-2qzCYF.minimum-28Z35l {
@@ -149,6 +161,11 @@
   display: none;
 }
 
+.form-2fGMdU .sansAttachButton-td2irx {
+  border-radius: var(--neb-br-normal);
+  padding: 0 !important;
+}
+
 .form-2fGMdU .channelTextArea-rNsIhG {
   background-color: transparent;
   border-radius: var(--neb-br-normal);
@@ -164,6 +181,7 @@
 .form-2fGMdU .channelTextArea-rNsIhG .scrollableContainer-2NUZem .attachButton-2WznTc {
   background-color: var(--channeltextarea-background);
   border-radius: var(--neb-br-normal);
+  padding-left: 32px;
   margin-right: var(--spacing-normal);
 }
 
@@ -870,6 +888,36 @@
   display: none;
 }
 
+.container-enaOkj {
+  background-color: var(--background-secondary-alt);
+  border-radius: var(--neb-br-normal);
+}
+
+.container-enaOkj .header-2-Imhb {
+  background-color: var(--background-secondary);
+  border-radius: var(--neb-br-normal);
+  margin: var(--spacing-normal);
+}
+
+.container-enaOkj .scroller-tlc3kG {
+  border-radius: var(--neb-br-normal);
+  padding: 0 10px;
+}
+
+.container-enaOkj .scroller-tlc3kG .messages-3G3erD {
+  border-radius: var(--neb-br-normal);
+  margin-top: var(--spacing-normal);
+}
+
+.container-enaOkj .scroller-tlc3kG .messages-3G3erD .divider-39oAwV {
+  display: none;
+}
+
+.container-enaOkj .scroller-tlc3kG .channelHeader-3Gd2xq {
+  background-color: var(--background-primary);
+  border-radius: var(--neb-br-normal);
+}
+
 .menu-3sdvDG {
   background-color: var(--background-secondary-alt);
   border-radius: var(--neb-br-medium);
@@ -1104,6 +1152,11 @@
 
 .mention-1f5kbO {
   box-shadow: none;
+  opacity: 1;
+}
+
+.unread-1xRYoj {
+  background-color: #f04747;
   opacity: 1;
 }
 
@@ -1350,7 +1403,7 @@
   --neb-br-medium:15px;
   --neb-br-large:20px;
   --neb-version1:"Nebula 4 Alpha";
-  --neb-version2:"4.0.0";
+  --neb-version2:"4.0.3";
   --neb-sidebar-width:300px;
   --neb-topbar-height:40px;
   --neb-backdrop-blur:5px;
