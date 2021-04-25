@@ -1,0 +1,28 @@
+.contentRegionScroller-26nc1e{
+    .lookFilled-1Gx00P.colorBrand-3pXr91{
+        background-color: var(--button-background);
+        border-radius: var(--neb-br-small);
+        &:hover{
+            background-color: var(--button-hover);
+        }
+    }
+    .lookFilled-1Gx00P.colorRed-1TFJan,
+    .lookOutlined-3sRXeN.colorRed-1TFJan{
+        border-radius: var(--neb-br-small);
+        background-color: #f04747;
+        border: none;
+        color:var(--header-primary);
+        &:hover{
+            background-color: #f047478f;
+            border:none;
+        }
+    }
+    svg.slider-TkfMQL svg {
+        display: none;
+    }
+    .container-3auIfb:not([style*="125"]) {
+        background-color: var(--toggle-enabled) !important;
+    }
+}
+
+

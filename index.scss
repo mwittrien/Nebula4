@@ -51,6 +51,8 @@
 --neb-secondary-alt-dark:#2d325a;
 --neb-tertiary-dark:#1b1f38;
 
+--toggle-enabled-dark: #42476e;
+
 --neb-unread-indicator-dark:rgba(255, 255, 255, 0.144);
 --neb-mention-indicator-dark:rgb(250, 71, 71);
 --neb-muted-indicator-dark:var(--background-tertiary);
@@ -63,6 +65,8 @@
 --neb-button-hover-dark:var(--background-secondary);
 
 
+
+
 // ╔════════════════════╦═══════════════════════════════════════════════════════════════════════════════════╗
 // ║Light Mode Variables║ Nebulas variables for light mode are below, alter at will.                        ║
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
@@ -71,6 +75,8 @@
 --neb-secondary-light:#a9abc9;
 --neb-secondary-alt-light:rgb(255, 255, 255);
 --neb-tertiary-light:rgb(240, 241, 255);
+
+--toggle-enabled-light:orange;
 
 --neb-unread-indicator-light:PLACEHOLDER;
 --neb-mention-indicator-light:PLACEHOLDER;
@@ -101,6 +107,7 @@
 --neb-scrollbar-track:transparent;
 --neb-scrollbar-thumb:var(--background-tertiary);
 
+
 // ╠════════════════════════END COLOR VARIABLES / START ELEMENT DEPENDENT VARIABLES═════════════════════════╣
 
 
@@ -118,7 +125,7 @@
 
 // Nebula Version
 --neb-version1:"Nebula 4 Alpha";
---neb-version2:"4.0.3";
+--neb-version2:" Nebula v4.1.3";
 
 // Sidebar
 --neb-sidebar-width:300px;
@@ -157,6 +164,8 @@
     --background-tertiary:var(--neb-tertiary-dark);
     --channels-default:var(--header-primary);
     --text-muted:var(--header-primary);
+
+    --toggle-enabled:var(--toggle-enabled-dark);
 
     --unread-indicator:var(--neb-unread-indicator-dark);
     --mention-indicator:var(--neb-mention-indicator-dark);

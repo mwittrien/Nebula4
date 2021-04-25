@@ -1,0 +1,19 @@
+.layer-3QrUeG{
+    background-color: var(--background-tertiary);
+    .standardSidebarView-3F1I7i{
+        background-color: var(--background-tertiary);
+        margin: var(--spacing-normal);
+        margin-top: 0 !important;
+        .contentRegion-3nDuYy{
+            background: transparent;
+            .contentRegionScroller-26nc1e{
+                border-radius: var(--neb-br-normal);
+                background-color: var(--background-primary);
+                .contentColumn-2hrIYH{
+                    width: fit-content;
+                    max-width: none;
+                }
+            }
+        }
+    }
+}

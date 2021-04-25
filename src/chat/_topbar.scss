@@ -23,6 +23,17 @@
                 &:focus-within{
                     width: 230px;
                 }
+                .searchFilter-2ESiM3{
+                    background-color: var(--background-secondary-alt);
+                    border-radius: calc(var(--neb-br-small) - 1px);
+                    padding: 0 5px;
+                }
+                .searchAnswer-3Dz2-q{
+                    background-color: var(--background-secondary-alt);
+                    border-radius: calc(var(--neb-br-small) - 1px);
+                    border-top-left-radius: 0;
+                    border-bottom-left-radius: 0;
+                }
             }
         }
     }

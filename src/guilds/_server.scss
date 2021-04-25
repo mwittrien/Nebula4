@@ -5,7 +5,7 @@
     background-color: transparent;
     margin: 0 var(--spacing-normal) var(--spacing-normal) var(--spacing-normal);
     .scroller-1Bvpku{
-        margin-top: calc(var(--spacing-quin) * 1.65);
+        margin-top: calc(var(--spacing-quin) * 1.6);
         margin-bottom: calc(var(--spacing-quin) * 1.65);
         background-color: var(--background-primary);
         border-radius: var(--neb-br-normal);
@@ -35,4 +35,7 @@
             top:5px;
         }
     }
+}
+ul.tree-2wKJdG:focus {
+    outline:none !important;
 }

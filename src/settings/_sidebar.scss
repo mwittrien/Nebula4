@@ -1,0 +1,27 @@
+.sidebarRegion-VFTUkN{
+    margin-right: var(--spacing-normal);
+    flex: 0;
+    .sidebarRegionScroller-3MXcoP{
+        background-color: var(--background-primary);
+        border-radius: var(--neb-br-normal);
+        .sidebar-CFHs9e{
+            padding: 30px 10px 10px 10px;
+            .side-8zPYf6 .item-PXvHYJ{
+                border-radius: var(--neb-br-small);
+                transition: 150ms ease all;
+                &:hover,
+                &[aria-selected="true"]{
+                    background-color: var(--background-tertiary);
+                }
+            }
+        }
+    }
+    ::-webkit-scrollbar{
+        display: none;
+    }
+}
+div[aria-label="USER_SETTINGS"] .info-1VyQPT:last-child > div:last-child::after {
+    content: var(--neb-version2);
+    text-transform: none;
+    display: block;
+}

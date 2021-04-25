@@ -54,6 +54,16 @@
   width: 135px;
 }
 
+.withFrame-haYltI {
+  background-color: var(--background-tertiary);
+  margin: 0 !important;
+  height: 22px;
+}
+
+.withFrame-haYltI .winButton-iRh8-Z {
+  top: 0;
+}
+
 .container-2fRDfG {
   background-color: var(--channeltextarea-background);
   border-radius: var(--neb-br-normal);
@@ -352,6 +362,19 @@
   width: 230px;
 }
 
+.container-1r6BKw .toolbar-1t6TWx .search-36MZv- .searchBar-3dMhjb .searchFilter-2ESiM3 {
+  background-color: var(--background-secondary-alt);
+  border-radius: calc(var(--neb-br-small) - 1px);
+  padding: 0 5px;
+}
+
+.container-1r6BKw .toolbar-1t6TWx .search-36MZv- .searchBar-3dMhjb .searchAnswer-3Dz2-q {
+  background-color: var(--background-secondary-alt);
+  border-radius: calc(var(--neb-br-small) - 1px);
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
 .circleIconButton-1QV--U {
   background-color: var(--background-secondary-alt);
   color: var(--header-primary);
@@ -404,7 +427,7 @@
 }
 
 .wrapper-3NnKdC .scroller-1Bvpku {
-  margin-top: calc(var(--spacing-quin) * 1.65);
+  margin-top: calc(var(--spacing-quin) * 1.6);
   margin-bottom: calc(var(--spacing-quin) * 1.65);
   background-color: var(--background-primary);
   border-radius: var(--neb-br-normal);
@@ -439,6 +462,10 @@
   height: 12px;
   left: 5px;
   top: 5px;
+}
+
+ul.tree-2wKJdG:focus {
+  outline: none !important;
 }
 
 .unreadMentionsIndicatorTop-2-tcdU {
@@ -675,6 +702,7 @@
   width: 57%;
   height: 53%;
   bottom: var(--spacing-normal);
+  z-index: -1;
 }
 
 .topSectionNormal-2-vo2m .tabBarContainer-1s1u-z {
@@ -1105,12 +1133,103 @@
   border: none;
 }
 
+.contentRegionScroller-26nc1e .lookFilled-1Gx00P.colorBrand-3pXr91 {
+  background-color: var(--button-background);
+  border-radius: var(--neb-br-small);
+}
+
+.contentRegionScroller-26nc1e .lookFilled-1Gx00P.colorBrand-3pXr91:hover {
+  background-color: var(--button-hover);
+}
+
+.contentRegionScroller-26nc1e .lookFilled-1Gx00P.colorRed-1TFJan,
+.contentRegionScroller-26nc1e .lookOutlined-3sRXeN.colorRed-1TFJan {
+  border-radius: var(--neb-br-small);
+  background-color: #f04747;
+  border: none;
+  color: var(--header-primary);
+}
+
+.contentRegionScroller-26nc1e .lookFilled-1Gx00P.colorRed-1TFJan:hover,
+.contentRegionScroller-26nc1e .lookOutlined-3sRXeN.colorRed-1TFJan:hover {
+  background-color: #f047478f;
+  border: none;
+}
+
+.contentRegionScroller-26nc1e svg.slider-TkfMQL svg {
+  display: none;
+}
+
+.contentRegionScroller-26nc1e .container-3auIfb:not([style*="125"]) {
+  background-color: var(--toggle-enabled) !important;
+}
+
+.layer-3QrUeG {
+  background-color: var(--background-tertiary);
+}
+
+.layer-3QrUeG .standardSidebarView-3F1I7i {
+  background-color: var(--background-tertiary);
+  margin: var(--spacing-normal);
+  margin-top: 0 !important;
+}
+
+.layer-3QrUeG .standardSidebarView-3F1I7i .contentRegion-3nDuYy {
+  background: transparent;
+}
+
+.layer-3QrUeG .standardSidebarView-3F1I7i .contentRegion-3nDuYy .contentRegionScroller-26nc1e {
+  border-radius: var(--neb-br-normal);
+  background-color: var(--background-primary);
+}
+
+.layer-3QrUeG .standardSidebarView-3F1I7i .contentRegion-3nDuYy .contentRegionScroller-26nc1e .contentColumn-2hrIYH {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  max-width: none;
+}
+
+.sidebarRegion-VFTUkN {
+  margin-right: var(--spacing-normal);
+  flex: 0;
+}
+
+.sidebarRegion-VFTUkN .sidebarRegionScroller-3MXcoP {
+  background-color: var(--background-primary);
+  border-radius: var(--neb-br-normal);
+}
+
+.sidebarRegion-VFTUkN .sidebarRegionScroller-3MXcoP .sidebar-CFHs9e {
+  padding: 30px 10px 10px 10px;
+}
+
+.sidebarRegion-VFTUkN .sidebarRegionScroller-3MXcoP .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ {
+  border-radius: var(--neb-br-small);
+  transition: 150ms ease all;
+}
+
+.sidebarRegion-VFTUkN .sidebarRegionScroller-3MXcoP .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ:hover, .sidebarRegion-VFTUkN .sidebarRegionScroller-3MXcoP .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ[aria-selected=true] {
+  background-color: var(--background-tertiary);
+}
+
+.sidebarRegion-VFTUkN ::-webkit-scrollbar {
+  display: none;
+}
+
+div[aria-label=USER_SETTINGS] .info-1VyQPT:last-child > div:last-child::after {
+  content: var(--neb-version2);
+  text-transform: none;
+  display: block;
+}
+
 .container-3w7J-x {
   background-color: var(--background-primary);
   border-radius: var(--neb-br-normal);
 }
 
 .container-3w7J-x .container-1taM1r {
+  border-radius: var(--neb-br-normal);
   margin: var(--spacing-normal);
 }
 
@@ -1131,6 +1250,24 @@
 
 .container-3w7J-x ::-webkit-scrollbar {
   display: none;
+}
+
+.container-3w7J-x .list-2luk8a {
+  margin-right: var(--spacing-normal);
+  padding-left: 8px;
+}
+
+.container-3w7J-x .list-2luk8a .draggable-2E_4tJ {
+  border-radius: var(--neb-br-normal);
+  padding-top: 2px;
+}
+
+.container-3w7J-x .list-2luk8a .draggable-2E_4tJ .content-1Wq3SX {
+  border-radius: var(--neb-br-normal);
+}
+
+.container-3w7J-x .list-2luk8a .draggable-2E_4tJ .content-1Wq3SX:hover {
+  background-color: var(--background-tertiary);
 }
 
 .bannerVisible-2ZE_qG .header-2V-4Sw {
@@ -1368,6 +1505,7 @@
   --neb-secondary-dark:#202442;
   --neb-secondary-alt-dark:#2d325a;
   --neb-tertiary-dark:#1b1f38;
+  --toggle-enabled-dark: #42476e;
   --neb-unread-indicator-dark:rgba(255, 255, 255, 0.144);
   --neb-mention-indicator-dark:rgb(250, 71, 71);
   --neb-muted-indicator-dark:var(--background-tertiary);
@@ -1379,6 +1517,7 @@
   --neb-secondary-light:#a9abc9;
   --neb-secondary-alt-light:rgb(255, 255, 255);
   --neb-tertiary-light:rgb(240, 241, 255);
+  --toggle-enabled-light:orange;
   --neb-unread-indicator-light:PLACEHOLDER;
   --neb-mention-indicator-light:PLACEHOLDER;
   --neb-mention-number-light:PLACEHOLDER;
@@ -1403,7 +1542,7 @@
   --neb-br-medium:15px;
   --neb-br-large:20px;
   --neb-version1:"Nebula 4 Alpha";
-  --neb-version2:"4.0.3";
+  --neb-version2:" Nebula v4.1.3";
   --neb-sidebar-width:300px;
   --neb-topbar-height:40px;
   --neb-backdrop-blur:5px;
@@ -1422,6 +1561,7 @@
   --background-tertiary:var(--neb-tertiary-dark);
   --channels-default:var(--header-primary);
   --text-muted:var(--header-primary);
+  --toggle-enabled:var(--toggle-enabled-dark);
   --unread-indicator:var(--neb-unread-indicator-dark);
   --mention-indicator:var(--neb-mention-indicator-dark);
   --mention-number-color:var(--neb-mention-number-dark);

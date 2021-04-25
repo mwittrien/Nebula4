@@ -6,6 +6,7 @@
     background-color: var(--background-primary);
     border-radius: var(--neb-br-normal);
     .container-1taM1r{
+        border-radius: var(--neb-br-normal);
         margin:var(--spacing-normal);
         .header-2V-4Sw{
             background-color: var(--background-secondary-alt);
@@ -22,6 +23,20 @@
     }
     ::-webkit-scrollbar{
         display: none;
+    }
+    .list-2luk8a{
+        margin-right: var(--spacing-normal);
+        padding-left: 8px;
+        .draggable-2E_4tJ{
+            border-radius: var(--neb-br-normal);
+            padding-top: 2px;
+            .content-1Wq3SX{
+                border-radius: var(--neb-br-normal);
+                &:hover{
+                    background-color: var(--background-tertiary);
+                }
+            }
+        }
     }
 }
 .bannerVisible-2ZE_qG{
