@@ -1,0 +1,22 @@
+.header-2V-4Sw{
+    background-color: var(--background-primary) !important;
+    border-radius: var(--neb-br-normal);
+    box-shadow: none !important;
+    filter: none !important;
+}
+.animatedContainer-1NSq4T{
+    margin-top: calc(var(--spacing-normal) * 7);
+    background-color: transparent;
+    box-shadow: none !important;
+    z-index: 133;
+    height:160px;
+    .bannerImage-3KhIJ6{
+        width: calc(var(--neb-sidebar-width) - 20px);
+        border-radius: var(--neb-br-normal);
+        box-shadow: var(--elevation-high);
+        left:10px;
+        &::before{
+            display: none;
+        }
+    }
+}

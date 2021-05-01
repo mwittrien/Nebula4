@@ -3,54 +3,35 @@
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
 
 .container-3w7J-x{
-    background-color: var(--background-primary);
     border-radius: var(--neb-br-normal);
-    .container-1taM1r{
+    background-color: transparent;
+    .scroller-RmtA4e{
+        background-color: var(--background-primary);
         border-radius: var(--neb-br-normal);
-        margin:var(--spacing-normal);
-        .header-2V-4Sw{
-            background-color: var(--background-secondary-alt);
-            border-radius: var(--neb-br-normal);    
-            box-shadow: none !important;
-            filter: none !important;
-            &:hover{
-                background-color: var(--background-secondary);
+        margin-top: var(--spacing-normal);
+        .wrapper-2jXpOf:hover .content-1x5b-n{
+            background-color: var(--background-tertiary);
+        }
+        [aria-label="Invite to Server"]{
+            display: none;
+        }
+        .list-2luk8a{
+            background-color: var(--background-secondary);
+            border-radius: var(--neb-br-normal);
+            margin: var(--spacing-half);
+            padding: 6px;
+            .content-1Wq3SX{
+                border-radius: var(--neb-br-small);
             }
         }
+        .listDefault-3ir5aS .clickable-1lCRLF:hover .content-1Wq3SX{
+            background-color: var(--background-secondary-alt);
+        }
     }
-    .wrapper-2jXpOf:hover .content-1x5b-n{
-        background-color: var(--background-tertiary);
+    [style="height: 84px;"]{
+        height:150px !important;
     }
     ::-webkit-scrollbar{
         display: none;
-    }
-    .list-2luk8a{
-        margin-right: var(--spacing-normal);
-        padding-left: 8px;
-        .draggable-2E_4tJ{
-            border-radius: var(--neb-br-normal);
-            padding-top: 2px;
-            .content-1Wq3SX{
-                border-radius: var(--neb-br-normal);
-                &:hover{
-                    background-color: var(--background-tertiary);
-                }
-            }
-        }
-    }
-}
-.bannerVisible-2ZE_qG{
-    .header-2V-4Sw{
-        background-color:transparent !important;
-    }
-    .animatedContainer-1NSq4T{
-        background: transparent;
-        .bannerImage-3KhIJ6{
-            border-radius: var(--neb-br-normal);
-            width: 100%;
-            &::before{
-                display: none;
-            }
-        }
     }
 }

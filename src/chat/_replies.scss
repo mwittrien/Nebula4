@@ -1,0 +1,32 @@
+@keyframes replies {
+    0%{
+        background-color: var(--background-primary);
+    }
+    25%{
+        background-color: var(--background-secondary);
+    }
+    50%{
+        background-color: var(--background-primary);
+    }
+    75%{
+        background-color: var(--background-secondary);
+    }
+    100%{
+        background-color: var(--background-primary);
+    }
+}
+
+
+.replying-1x3H0T{
+    animation: replies 3s infinite;
+    margin-bottom: 5px;
+    &::before{
+        animation: replies 3s infinite;
+        border-radius: var(--neb-br-medium);
+        width:7px;
+        left:-10px;
+    }
+    &:hover{
+        background-color: var(--background-secondary-alt) !important;
+    }
+}

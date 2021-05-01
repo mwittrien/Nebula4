@@ -3,19 +3,20 @@
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
 
 .privateChannels-1nO12o{
-    background-color: var(--background-primary);
+    background-color: transparent;
     border-radius: var(--neb-br-normal);
     .searchBar-6Kv8R2{
-        background-color: var(--background-secondary-alt);
+        background-color: var(--background-primary);
         border-radius: var(--neb-br-normal);
-        margin: var(--spacing-normal);
         box-shadow: none;
         .searchBarComponent-32dTOx{
             border-radius: var(--neb-br-small);
         }
     }
     .scroller-1JbKMe{
-        background-color: transparent;
+        background-color: var(--background-primary);
+        border-radius: var(--neb-br-normal);
+        margin-top: var(--spacing-normal);
     }
     ::-webkit-scrollbar{
         display: none;

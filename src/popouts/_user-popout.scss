@@ -9,20 +9,31 @@
     box-shadow: var(--elevation-high);
     .headerNormal-T_seeN,
     .headerPlaying-j0WQBV,
-    .headerSpotify-zpWxgT{
+    .headerSpotify-zpWxgT,
+    .headerStreaming-2FjmGz{
         box-shadow: var(--elevation-high);
         margin: var(--spacing-normal);
         background-color: var(--background-secondary);
         border-radius: var(--neb-br-normal);
         .activity-11LB_k{
-            background-color: var(--background-primary);
+            background-color: var(--background-secondary-alt);
             border-radius: var(--neb-br-normal);
+            box-shadow: var(--elevation-high);
             margin: var(--spacing-normal);
+            position: absolute;
+            max-width:200px;
+            left:-250px;
+            top:-10px;
             button{
-                background-color: var(--background-secondary-alt);
+                background-color: var(--background-secondary);
                 border-radius: var(--neb-br-small);
                 border:none;
             }
+        }
+        .customStatus-1bh2V9{
+            background-color: var(--background-secondary-alt);
+            border-radius: var(--neb-br-normal);
+            padding: 7px;
         }
     }
     .body-3iLsc4{
